@@ -2,7 +2,7 @@
 [vsixgallery]: http://vsixgallery.com/extension/DotEnv.a965bd57-3def-470f-b038-499c461e6de2/
 [repo]:https://github.com/madskristensen/DotENV
 
-# Terraform language support
+# DotENV (.env) language support
 
 [![Build](https://github.com/madskristensen/DotENV/actions/workflows/build.yaml/badge.svg)](https://github.com/madskristensen/DotENV/actions/workflows/build.yaml)
 
