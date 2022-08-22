@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="DotEnv.a965bd57-3def-470f-b038-499c461e6de2" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
+        <DisplayName>DotENV</DisplayName>
+        <Description xml:space="preserve">Visual Studio syntax highlighting support for environment (.env) files. Based on the popular extension for SublimeText</Description>
+        <MoreInfo>https://github.com/madskristensen/dotenv</MoreInfo>
+        <License>Resources\LICENSE</License>
+        <Icon>Resources\Icon.png</Icon>
+        <PreviewImage>Resources\Icon.png</PreviewImage>
+        <Tags>env, environment</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="registry.pkgdef" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
